@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:paddingHorizontal="@dimen/pad_screen"
+    android:paddingTop="56dp"
+    android:paddingBottom="@dimen/pad_screen">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_card"
+        android:src="@drawable/ic_arrow_back"
+        android:contentDescription="@string/btn_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/profile_title"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text_h1"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminateTint="@color/primary"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@id/title"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_input"
+        android:hint="@string/profile_name"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:singleLine="true"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text_tertiary"
+        android:textSize="@dimen/text_body"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/inputAddress"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_input"
+        android:hint="@string/profile_address"
+        android:inputType="textPostalAddress"
+        android:paddingHorizontal="16dp"
+        android:singleLine="true"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text_tertiary"
+        android:textSize="@dimen/text_body"
+        app:layout_constraintTop_toBottomOf="@id/inputName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_primary"
+        android:stateListAnimator="@null"
+        android:text="@string/profile_save"
+        android:textAllCaps="false"
+        android:textColor="@color/bg"
+        android:textSize="@dimen/text_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

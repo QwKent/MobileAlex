@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ALEX</string>
+
+    <string name="welcome_title">Добро пожаловать в ALEX</string>
+    <string name="welcome_sub">Умная колонка с голосовым ассистентом. Настроим за минуту.</string>
+    <string name="welcome_start">Настроить колонку</string>
+
+    <string name="discovery_title">Поиск колонки</string>
+    <string name="discovery_sub">Убедитесь, что ALEX включён в розетку. Индикатор должен мигать синим.</string>
+    <string name="discovery_scanning">Сканирование...</string>
+    <string name="discovery_empty_title">Ищем колонку</string>
+    <string name="discovery_empty_sub">Обычно это занимает 10–20 секунд</string>
+    <string name="discovery_help">Не вижу колонку</string>
+    <string name="discovery_retry">Обновить</string>
+
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_sub">Введите данные вашей сети</string>
+    <string name="wifi_ssid">Название сети (SSID)</string>
+    <string name="wifi_password">Пароль</string>
+    <string name="wifi_next">Далее</string>
+
+    <string name="status_title">ALEX готов</string>
+    <string name="status_sub">Скажите «Алекс» — и он ответит</string>
+    <string name="status_go">Перейти к устройству</string>
+
+    <string name="profile_title">Профиль</string>
+    <string name="profile_name">Как вас зовут</string>
+    <string name="profile_address">Город, улица</string>
+    <string name="profile_save">Сохранить</string>
+
+    <string name="btn_back">Назад</string>
+    <string name="permission_denied">Нужны разрешения Bluetooth для продолжения</string>
+    <string name="bluetooth_off">Включите Bluetooth</string>
+    <string name="error_generic">Что-то пошло не так</string>
+
+    <string name="discovery_simulate">Симулировать колонку (BETA)</string>
+    <string name="home_title">ALEX</string>
+    <string name="home_status_online">Онлайн</string>
+    <string name="home_status_offline">Офлайн</string>
+    <string name="home_room">Гостиная</string>
+    <string name="home_quick_actions">Быстрые действия</string>
+    <string name="home_mic">Микрофон</string>
+    <string name="home_music">Музыка</string>
+    <string name="home_alarm">Будильник</string>
+    <string name="home_on">Включён</string>
+    <string name="home_off">Выключен</string>
+    <string name="home_no_alarm">Нет</string>
+    <string name="home_manage">Управление</string>
+    <string name="home_settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_wifi">Wi-Fi</string>
+    <string name="settings_profile">Профиль</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_delete">Удалить все данные</string>
+    <string name="settings_delete_confirm">Удалить все данные и колонки?</string>
+    <string name="settings_saved">Сохранено</string>
+</resources>

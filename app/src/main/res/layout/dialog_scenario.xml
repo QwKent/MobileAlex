@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/inputScenName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/bg_input"
+        android:hint="Название"
+        android:inputType="text"
+        android:paddingHorizontal="16dp"
+        android:singleLine="true"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text_tertiary" />
+
+    <EditText
+        android:id="@+id/inputScenActions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_input"
+        android:hint="Что делает (Свет + погода)"
+        android:inputType="text"
+        android:paddingHorizontal="16dp"
+        android:singleLine="true"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text_tertiary" />
+</LinearLayout>
